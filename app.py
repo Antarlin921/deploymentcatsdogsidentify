@@ -11,6 +11,7 @@ from tensorflow.keras.preprocessing import image
 
 # instace of an app
 app=Flask(__name__)
+# input modelfile location on your device
 model=load_model(r'C:\Users\Antarlin\Desktop\Data_Science\Deployment26July2021\CatsDogs\flask_app\catdog.h5')
 
 
@@ -32,9 +33,7 @@ def contact1():
     print(piclink)
 
     #  image path
-    # img_path=r'C:\Users\Antarlin\Desktop\Data_Science\Deployment26July2021\CatsDogs\test_set\test_set\dogs\dog.4028.jpg'
-    # img_path='C:/Users/Antarlin/Desktop/Data_Science/Deployment26July2021/CatsDogs/test_set/test_set/dogs/dogs.4027.jpg'
-    # img_path=r'C:\Users\Antarlin\Desktop\Data_Science\Deployment26July2021\CatsDogs\Joblib\dog_4027.jpg'
+   
     # read the image
     test_image=image.load_img(piclink,target_size=(64,64))
 
