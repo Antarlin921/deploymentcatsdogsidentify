@@ -46,7 +46,7 @@ def contact1():
         output="dog"
     else:
         output="cat"
-    return render_template('result.html',predicted_text=f'This is a {result,output}')
+    return render_template('result.html',predicted_text=f'This is a {output}')
 
 #  run the app  
 if __name__=='__main__':
