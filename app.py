@@ -17,13 +17,7 @@ model=load_model(r'C:\Users\Antarlin\Desktop\Data_Science\Deployment26July2021\C
 
 @app.route('/')
 def hello():
-    return "Welcome"
-
-@app.route('/home')
-def homepage():
     return render_template("home.html")
-
-
 
 #Picture Detection Code Start
 @app.route('/blog1',methods=['POST'])
