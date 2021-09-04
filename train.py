@@ -48,7 +48,7 @@ classifier.add(Dense(1,activation='sigmoid'))
 
 classifier.compile(optimizer='adam',loss='binary_crossentropy',metrics=['accuracy'])
 
-# classifier.fit(training_set,epochs=10,validation_data=testing_set)
+classifier.fit(training_set,epochs=10,validation_data=testing_set)
 
 # saving the model
 # replace location placed below with where u want to save the model in your device
