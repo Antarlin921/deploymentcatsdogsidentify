@@ -1,5 +1,4 @@
 
-aiohttp @ file:///C:/ci/aiohttp_1614361212023/work
 astor==0.8.1
 astunparse==1.6.3
 async-timeout==3.0.1
