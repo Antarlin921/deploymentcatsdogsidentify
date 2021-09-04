@@ -97,7 +97,6 @@ threadpoolctl==2.2.0
 tqdm==4.62.2
 typer==0.3.2
 typing-extensions==3.7.4.3
-urllib3 @ file:///tmp/build/80754af9/urllib3_1625084269274/work
 wasabi==0.8.2
 Werkzeug==2.0.1
 win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
