@@ -1,4 +1,4 @@
-absl-py @ file:///C:/ci/absl-py_1623867344543/work
+
 aiohttp @ file:///C:/ci/aiohttp_1614361212023/work
 astor==0.8.1
 astunparse==1.6.3
